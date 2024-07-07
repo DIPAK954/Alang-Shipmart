@@ -10,13 +10,13 @@ box-sizing: border-box;
 
 #root{
 
-  background-color: #d5c0e8;
+  background-color: #ffffff;
 
 }
 
 header {
 display: flex;
-background-color: #fefefe;
+background-color: #000000;
 height: 80px;
 justify-content: space-between;
 align-items: center;
@@ -25,11 +25,13 @@ border-bottom: 1px solid #b6b1b1;
 .myntra_home {
 height: 77px;
 }
-.logo_container {
+
+.logo_container{
 margin-left: 2%;
-
-
+text-decoration: #000000;
+color: white;
 }
+
 .action_bar {
 margin-right: 4%;
 }
@@ -125,11 +127,13 @@ justify-content: space-evenly;
 width: 250px;
 }
 
+
 .footer_container {
 padding: 30px 0px 40px 0px;
 background: #FAFBFC;
 display: flex;
 justify-content: space-evenly;
+
 }
 
 .footer_column {
@@ -166,7 +170,7 @@ margin: 40px 10%;
 .item-container {
 width: 250px;
 margin: 10px;
-background-color: #d5c0e8;
+background-color: #ffffff;
 /* border: 1px solid rgb(0, 0, 0); */
 border-radius: 8px;
 
@@ -359,7 +363,7 @@ color:black;
   
   .bag-item-container {
     margin-bottom: 8px;
-    background: #FAF9F6;
+    background:#dbebff;
     font-size: 14px;
     border: 1px solid #eaeaec;
     border-radius: 8px;
@@ -369,7 +373,7 @@ color:black;
   
   .bag-item-container2 {
     margin-bottom: 8px;
-    background: #FAF9F6;
+    background: #dbebff;
     font-size: 14px;
     border: 1px solid #eaeaec;
     border-radius: 8px;
